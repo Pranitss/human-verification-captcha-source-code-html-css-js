@@ -13,8 +13,8 @@ body {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: rgb(227, 221, 221);
+    box-shadow: 0 0 10px rgba(18, 18, 18, 0.5);
 }
 
 .captcha-box {
