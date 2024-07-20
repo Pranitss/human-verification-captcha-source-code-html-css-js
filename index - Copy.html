@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUMAN Verification CAPTCHA </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="captcha-container">
+        <h2>Verify that you are a human</h2>
+        <div class="captcha-box">
+            <input type="text" id="captchaInput" placeholder="Enter captcha from below...">
+            <button onclick="validateCaptcha()">Verify Captcha</button>
+            <p id="errorMessage"></p>
+        </div>
+        <div class="captcha">
+            <span id="captchaText"></span>
+            <button onclick="generateCaptcha()">Refresh Captcha</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
